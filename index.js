@@ -33,7 +33,6 @@ app.use("/api/auth",authRoute);
 app.use("/api/product",productRoute);
 app.use("/api/cart",cartRoute);
 app.use("/api/order",orderRoute);
-app.use("/api/checkout",paymentRoute);
  
 
 app.listen(process.env.PORT || 5000 ,()=>{
